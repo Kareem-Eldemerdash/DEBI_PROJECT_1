@@ -29,8 +29,7 @@ def fs(s):
 
 
 def is_palindrome(s):
-    s=s.lower()
-    txt=s
+    txt=s.lower()
     txtr=txt[::-1]
     if txt == txtr:
         return  True
