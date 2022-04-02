@@ -29,16 +29,14 @@ def fs(s):
 
 
 def is_palindrome(s):
-    try:
-        s=s.lower()
-        txt=s
-        txtr=txt[::-1]
-        if txt == txtr:
-            return  True
-        else:
-            return  False
-    except:
-        print('tri again(:')
+    s=s.lower()
+    txt=s
+    txtr=txt[::-1]
+    if txt == txtr:
+        return  True
+    else:
+        return  False
+    
 
 
 def solve(a,b):
